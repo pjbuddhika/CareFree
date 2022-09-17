@@ -1,0 +1,93 @@
+html
+{
+    width: 100%;
+    height: auto;
+}
+
+header img
+{
+    width: 125px;
+    display: inline;
+}
+
+header nav
+{
+    width: 150px;
+    display: inline;
+}
+
+ul{
+    float: right;
+    padding-right: 30px;
+}
+
+ul li
+{
+    display: inline;
+    padding: 15px;
+    color: rgb(35, 166, 175);
+    align-content: right;
+    font: normal small-caps bold 30px Andale Mono, monospace;
+}
+ul li a
+{
+    text-decoration: none;
+    color: rgb(35, 166, 175);
+}
+
+ul li a:hover, ul li a:active
+{
+    text-decoration: none;
+    color: rgb(55, 88, 117);
+}
+
+section p.title
+{
+    font: normal bold 35px Sans-serif;
+    color: rgb(24, 119, 148);
+}
+
+.align-center
+{
+    /*change this center alignment*/
+    position: absolute;
+    left: 45%;  
+}
+
+input.btn
+{
+    padding: 8px;
+    color: aliceblue;
+    font: normal bold 14px Sans-serif;
+    background-color: rgb(35, 166, 175); 
+    border: none;
+    border-radius: 5px;
+}
+
+input.btn:hover, input.btn:active
+{
+    padding: 8px;
+    color: aliceblue;
+    font: normal bold 14px Sans-serif;
+    background-color: rgb(23, 109, 115); 
+    border: none;
+    border-radius: 5px;
+}
+
+.doctor-form
+{
+    padding-top: 20px;
+}
+
+
+footer
+{
+    left: 0;
+    padding: 10px;
+    background-color: darkcyan;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
